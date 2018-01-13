@@ -1,0 +1,12 @@
+#include "syscall.h"
+
+int main()
+{
+	int n = ReadInt();
+
+	PrintInt(n);
+
+	n = ReadInt();
+	PrintInt(n);
+	Halt();
+}

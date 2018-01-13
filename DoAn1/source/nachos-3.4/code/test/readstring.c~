@@ -1,0 +1,8 @@
+#include "syscall.h"
+
+int main() {
+	char s[255];
+	ReadString(s,255);
+	PrintString(s);
+	return 0;
+}

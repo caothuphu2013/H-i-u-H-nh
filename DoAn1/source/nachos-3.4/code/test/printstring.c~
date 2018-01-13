@@ -1,0 +1,6 @@
+#include "syscall.h"
+
+int main() {
+	PrintString("Day la chuoi ky tu");	
+	return 0;
+}
